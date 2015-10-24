@@ -1,31 +1,6 @@
 @import "_grid.scss";
 @import "_header.scss";
-
-$theme-color: #32adff;
-$colors: #32ADFF, #1CA2FC;
-$font: 'Lato', sans-serif;
-
-html, body {
-    height: 100%;
-}
-
-h1, h2, h3, p {
-   font-family: $font;
-}
-
-@mixin unselectable() {
-   -webkit-touch-callout: none;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
-}
-
-@mixin Animation($name) {
-    -webkit-animation: $name 1.5s ease forwards;
-    -moz-animation: $name 1.5s ease forwardse;
-    animation: $name 1.5s ease forwards;
-}
+@import "_defaults.scss";
 
 body {
    margin: 0;

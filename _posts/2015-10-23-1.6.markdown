@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Log: 1.6"
+date:   2015-10-23 19:15:18
+---
+Feature Updates:
+
+- Added the ability to change the currency of subscriptions by tapping the price icon when adding new subscriptions.
+
+Bug fixes:
+
+- Fixed Crash that would happen when enabling notifications and a custom subscription was already created
+
+- Fixed issue where when downloading new companies the indicator would not disappear after it was finished
+
+- Fixed issue where subscriptions that were renewing yearly and the initial date was set it in the past, the days until renewal would be negative.
+
+- Other tiny tweaks
+
+Technical Updates (If you care):
+
+- Outflow has now been updated to Swift 2.
