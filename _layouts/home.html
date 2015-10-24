@@ -60,10 +60,10 @@
              <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
              {% endif %}
           </h1>
-          <p>{{ post.excerpt }} <a class="read-more" href="{{ post.url }}">Read more</a></p>
+          <a class="note-text" href="{{ post.url }}"><p>{{ post.excerpt }}</p></a>
         </article>
      </section>
-
-    {% include footer.html %}
+     {% include newsletter.html %}
+     {% include footer.html %}
   </body>
 </html>

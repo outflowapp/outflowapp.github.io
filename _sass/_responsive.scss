@@ -1,37 +1,7 @@
-@media screen and (min-width: 1100px) {
-    #Home-Screenshot video {
-        margin-left: 116px;
-    }
-
-    #Outflow-HomeScreenshot {
-        margin-left: 115px;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    #Outflow-HomeScreenshot {
-        margin-left: 104px;
-    }
-}
-
-@media screen and (max-width: 770px) {
-    #Outflow-HomeScreenshot {
-        margin-left: 15px;
-    }
-
-    #Home-Screenshot {
-        margin: 0;
-        text-align: center;
-
-        video {
-            margin-left: 15px;
-        }
-    }
-
-    #Home-Screenshot {
-        margin: 0;
-    }
-
+@media screen and (max-width: 450px) {
+   #Outflow-Screenshot {
+      width: 80%;
+   }
     .feature-set {
         margin-top: 35px;
     }
@@ -41,7 +11,7 @@
     }
 
     #video-demo iframe{
-        width: 220px;
+        width: 100%;
         height: 380px;
     }
 }
