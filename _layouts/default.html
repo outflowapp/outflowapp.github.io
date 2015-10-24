@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head-blog.html %}
-
+   <head>
+      {% include head.html %}
+      <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+   </head>
   <body>
-
     {% include header-blog.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+    {{ content }}
     {% include newsletter.html %}
     {% include footer.html %}
-
   </body>
-
 </html>

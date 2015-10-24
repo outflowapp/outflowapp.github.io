@@ -1,0 +1,32 @@
+#note {
+   display: block;
+   width: 80%;
+   margin: 0 auto;
+}
+
+#note a {
+   text-decoration: none;
+   color: #3976ff;
+}
+
+#note h1 {
+   line-height: 0;
+   padding: 0;
+}
+
+#note h2 {
+   font-size: 15pt;
+}
+
+#note li {
+   font-family: $font;
+   font-size: 13pt;
+}
+
+#note p {
+   font-size: 13pt;
+}
+
+#note ol li {
+   padding-bottom: 10px;
+}

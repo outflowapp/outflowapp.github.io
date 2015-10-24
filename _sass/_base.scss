@@ -19,6 +19,15 @@ body {
    margin-bottom: 40px;
 }
 
+.short-line {
+   width: 15%;
+   height: 2px;
+   background-color: #B1B1B1;
+   border-radius: 1px;
+   margin: 0 auto;
+   margin-bottom: 5px;
+}
+
 #featured-on img {
    height: 55px;
    margin: 0 30px;
@@ -96,6 +105,8 @@ body {
    margin: 0 auto;
 }
 
-@import "_newsletter.scss";
+@import "_archive.scss";
+@import "_article.scss";
 @import "_footer.scss";
+@import "_newsletter.scss";
 @import "_responsive.scss";

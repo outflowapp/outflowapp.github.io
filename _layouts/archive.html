@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section id="archive">
+   <h3 class="section-title">Notes</h3>
+   <ul>
+   {% for post in site.posts %}
+      <li>
+         <a class="archive-title" href="{{ post.url }}">{{ post.title }}</a>
+         <a class="archive-post" href="{{ post.url }}"><p>{{ post.excerpt }}</p></a>
+      </li>
+   {% endfor %}
+   </ul>
+</section>

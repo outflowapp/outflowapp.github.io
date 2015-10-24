@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+   <head>
+      {% include head.html %}
+      <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  </head>
   <body>
     {% include header.html %}
     <section id="features">

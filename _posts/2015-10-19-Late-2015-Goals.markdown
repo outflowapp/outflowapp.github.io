@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Late 2015 Goals for Outflow"
+date:   2015-10-19 19:15:18
+---
+I have been working on Outflow for almost a year now and finally released it during the summer that just passed. I just finished the latest update that features the ability to change currencies and a lot of bug fixes (nothing crazy). I have a lot of big plans for the app, but not enough time to work on it has much as I would like. Instead of keeping anyone who likes the app in the dark about what I am working on, here is my goals / priorities list for 2015.
+
+## Goals / Priorities for 2015 (In order)
+
+1. Redesign Outflow’s website.
+2. Add more companies to Outflow.
+3. Do more marketing for Outflow.
+4. Finish the 3D touch implementation.
+5. Add a quick view menu to view all your subscriptions with quick swipe.
+6. Implement the ability to add credit cards as payment method for new subscriptions.
+7. Quick Edit / Delete: be able to edit / delete directly from the home view.
+8. Improve the experience for 6 / 6+ users (some stuff could really be improved).
+9. Add gesture controls to the drop down menu that allow you to edit or to delete subscriptions.
+10. Add analytics to get the bigger picture of where your money is going.
+11. Do more research on how to automate the adding new subscriptions directly by connecting your email or bank account and possibly implement it.
+12. Implement the ability for the price field to be automatically pre-filled with the actual price of the service. For example you select Dropbox and the as soon as you return to the view the price field is filled with $9.99.
+13. Do a better job of onboarding.
+14. Add so that you can attach company invoices to subscriptions (Still debating)
+
+That’s it for now. The list looks kinda long, but some features will take less long than others. Also, I will try to update the list as I finish implementing features.
+If you have any features requests, complaints or anything really I would love to hear it. You can get in touch with me through [twitter](https://medium.com/@kirkbyo/late-2015-goals-for-outflow-880f265e46c3#.lv5cpxym0) (DM are open).
+
+*This Article was orginally posted on [Medium](https://medium.com/@kirkbyo/late-2015-goals-for-outflow-880f265e46c3#.lv5cpxym0)*
