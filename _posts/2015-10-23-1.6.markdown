@@ -3,6 +3,8 @@ layout: post
 title:  "Log: 1.6"
 date:   2015-10-23 19:15:18
 ---
+List of all the new stuff added in the latest 1.6 update. Includes the ability to change currencies and a lot of bug fixes.
+
 Feature Updates:
 
 - Added the ability to change the currency of subscriptions by tapping the price icon when adding new subscriptions.
