@@ -1,0 +1,47 @@
+@media screen and (min-width: 1100px) {
+    #Home-Screenshot video {
+        margin-left: 116px;
+    }
+
+    #Outflow-HomeScreenshot {
+        margin-left: 115px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #Outflow-HomeScreenshot {
+        margin-left: 104px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #Outflow-HomeScreenshot {
+        margin-left: 15px;
+    }
+
+    #Home-Screenshot {
+        margin: 0;
+        text-align: center;
+
+        video {
+            margin-left: 15px;
+        }
+    }
+
+    #Home-Screenshot {
+        margin: 0;
+    }
+
+    .feature-set {
+        margin-top: 35px;
+    }
+
+    .col-1-4 {
+        clear: both;
+    }
+
+    #video-demo iframe{
+        width: 220px;
+        height: 380px;
+    }
+}

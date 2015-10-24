@@ -1,0 +1,63 @@
+#launch-list {
+   width: 80%;
+   text-align: center;
+   background-color: $theme-color;
+   padding: 10px 0;
+   border-radius: 3px;
+   margin: 0 auto;
+   margin-top: 65px;
+
+   div {
+      padding: 5px 0;
+      text-align: center;
+      display: inline-block;
+      p {
+         vertical-align: middle;
+         display: inline-block;
+         width: 30%;
+         max-width: 400px;
+         min-width: 300px;
+         margin-right: 5%;
+         line-height: 20px;
+         font-family: 'Lato', sans-serif;
+         font-weight: 17pt;
+         color: #F5F5F5;
+      }
+
+      form {
+         margin-top: 5px;
+      }
+   }
+}
+
+input.button {
+   margin: 0;
+   margin-left: -21px;
+   padding: 0;
+   height: 29px;
+   width: 75px;
+   background-color: #3976ff;
+   color: white;
+   border: 0;
+   border-radius: 0 5px 5px 0;
+}
+
+input {
+   background-color: white;
+   width: 190px;
+   border-radius: 5px 0 0 5px;
+   font-size: 10pt;
+   padding: 0;
+   padding-left: 15px;
+   margin: 0;
+   background-color: white;
+   border: 0;
+   height: 29px;
+   outline: 0;
+}
+
+#mc-embedded-subscribe-form {
+   div {
+      display: inline-block;
+   }
+}
