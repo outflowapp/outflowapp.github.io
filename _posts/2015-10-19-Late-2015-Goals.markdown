@@ -7,7 +7,7 @@ I have been working on Outflow for almost a year now and finally released it dur
 
 ## Goals / Priorities for 2015 (In order)
 
-1. Redesign Outflow’s website.
+1. *Redesign Outflow’s website.* ✓
 2. Add more companies to Outflow.
 3. Do more marketing for Outflow.
 4. Finish the 3D touch implementation.
