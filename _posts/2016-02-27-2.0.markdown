@@ -8,13 +8,15 @@ The long awaited 2.0 version of Outflow. We have been listening and we understan
 **New Features**
 
 - Completely redid the slide down menu.
-   ![http://outflowapp.com/assets/img/3D-Touch-Demo.mov.gif](3D Demo gif)
-   
     - Now displays all the subscriptions when they are renewing and with one tap you can get more details on the subscription.
     - Also, you can now view how much you are spending on each frequency.
-    - We added gesture controls, so now with one swipe downwards the menu will appear.  
+    - We added gesture controls, so now with one swipe downwards the menu will appear.
+![Slide down menu gif](http://outflowapp.com/assets/img/3D-Touch-Demo.gif)
+
 - Added the ability to delete directly from the home menu. Each subscription card now has an icon, and with a tap, a menu will appear giving you the option to edit or delete.
+![Slide down menu gif](http://outflowapp.com/assets/img/3D-Touch-Demo.gif)
 - 3D Touch for all you iPhone 6S and 6S Plus owners.
+![Edit/Delete Demo Gif](http://outflowapp.com/assets/img/Edit-Delete-Demo.gif)
 - Added more colours and icons for custom subscriptions.
 - IPhone 6/6 Plus UI improvements.
 - Better logic for days till renewal for each subscription.
