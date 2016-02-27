@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Update Log: 2.0"
+date:   2016-02-27 19:15:18
+---
+The long awaited 2.0 version of Outflow. We have been listening and we understand that you want the process automated, and we are looking into it, but for now here is everything new in Outflow 2.0!
+
+**New Features**
+
+- Completely redid the slide down menu.
+   ![http://outflowapp.com/assets/img/3D-Touch-Demo.mov.gif](3D Demo gif)
+   
+    - Now displays all the subscriptions when they are renewing and with one tap you can get more details on the subscription.
+    - Also, you can now view how much you are spending on each frequency.
+    - We added gesture controls, so now with one swipe downwards the menu will appear.  
+- Added the ability to delete directly from the home menu. Each subscription card now has an icon, and with a tap, a menu will appear giving you the option to edit or delete.
+- 3D Touch for all you iPhone 6S and 6S Plus owners.
+- Added more colours and icons for custom subscriptions.
+- IPhone 6/6 Plus UI improvements.
+- Better logic for days till renewal for each subscription.
+- Subscriptions are now sorted from which are closer to renewal.
+- So many bug fixes.
+
+**Bug Fixes**
+- Yearly subscriptions would say that days till renewal was negative or that it would give you the date two years from now.
+- Days till renewal is negative when set to Monday.
+- App would crash when deleting multiple subscriptions.
+- [Rare crash] Would crash when swiping through subscriptions.
+- Monthly notifications would have the wrong amount of subscriptions in the update.
+- Would crash when selecting frequency and date quickly.
+
+If you enjoy this update, please consider giving it a review in the app store, it goes a long way! If you have any problems, or just would like to get in touch, you can always send us an email (hello@outflowapp.com) or tweet us ([@outflowapp](https://twitter.com/kirkbyo_)).
