@@ -30,3 +30,23 @@
 #note ol li {
    padding-bottom: 10px;
 }
+
+#demo-display {
+   width: 100%;
+   list-style: none;
+
+   li {
+      display: inline-block;
+      width: 33.33%;
+      float: left;
+
+      img {
+         display: block;
+         margin: 0 auto;
+      }
+      p {
+         text-align: center;
+         width: 95%;
+      }
+   }
+}

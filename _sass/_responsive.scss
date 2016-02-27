@@ -21,4 +21,18 @@
    input {
       height: 28px;
    }
+
+   #demo-display li {
+      width: 100%;
+      clear: both;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 900px) {
+   #demo-display li {
+      width: 50%;
+   }
 }

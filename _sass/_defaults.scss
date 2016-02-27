@@ -23,3 +23,7 @@ h1, h2, h3, p {
     -moz-animation: $name 1.5s ease forwardse;
     animation: $name 1.5s ease forwards;
 }
+
+.clear {
+   clear: both;
+}
