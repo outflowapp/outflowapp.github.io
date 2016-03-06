@@ -105,6 +105,10 @@ body {
    margin: 0 auto;
 }
 
+.no-decoration {
+   text-decoration: none;
+}
+
 @import "_archive.scss";
 @import "_article.scss";
 @import "_footer.scss";
