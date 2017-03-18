@@ -1,6 +1,6 @@
-header {
-   margin-top: 25px;
-   margin-bottom: 50px;
+#header {
+   padding-top: 75px;
+   padding-bottom: 75px;
 }
 
 .app-icon {
@@ -9,14 +9,80 @@ header {
 }
 
 #app-name {
+   font-size: 15pt;
    text-align: center;
-   font-size: 18pt;
 }
 
 #slogan {
-   text-align: center;
-   font-size: 16pt;
+   font-size: 14pt;
    margin: 0;
    line-height: 0;
    font-weight: 300;
+   text-align: center;
+}
+
+#logo {
+   width: 300px;
+   height: 85px;
+   img {
+      width: 25%;
+      display: inline-block;
+      float:left;
+   }
+   div {
+      margin-left: 8%;
+      width:67%;
+      float: left;
+      h1 {
+         text-align: left;
+      }
+      h2 {
+         text-align: left;
+      }
+   }
+   margin: 0 auto;
+   margin-top: 30px
+}
+
+#header-buttons {
+   text-align: center;
+}
+
+.header-btn {
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+   border-radius: 7px;
+   font-family: $font;
+}
+
+#header-download-btn {
+   @include FadeTransition(background-color, 0.7s);
+   background-color: $theme-color;
+   width: 150px;
+   color: white;
+   line-height: 45px;
+   height: 45px;
+
+   &:hover {
+      background-color: lighten($theme-color, 20);
+   }
+}
+
+#header-content {
+   p {
+      margin: 0 auto;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      text-align: center;
+      width: 60%;
+      font-size: 15pt;
+   }
+}
+
+#header-row-image {
+   @include unselectable();
+   img {
+      width: 424px;
+   }
 }

@@ -1,8 +1,8 @@
 #launch-list {
    width: 80%;
    text-align: center;
-   background-color: $theme-color;
    padding: 10px 0;
+   border: 2px #ECECEC solid;
    border-radius: 3px;
    margin: 0 auto;
    margin-top: 65px;
@@ -18,10 +18,10 @@
          max-width: 400px;
          min-width: 300px;
          margin-right: 5%;
-         line-height: 20px;
+         line-height: 25px;
+         font-size: 15pt;
          font-family: 'Lato', sans-serif;
          font-weight: 17pt;
-         color: #F5F5F5;
       }
 
       form {
@@ -31,6 +31,7 @@
 }
 
 input.button {
+   @include FadeTransition(background-color, 0.7s);
    margin: 0;
    margin-left: -21px;
    padding: 0;
@@ -41,6 +42,11 @@ input.button {
    border: 0;
    border-radius: 0 5px 5px 0;
    -webkit-appearance: none;
+   cursor: pointer;
+
+   &:hover {
+      background-color: lighten($theme-color, 15);
+   }
 }
 
 input {
@@ -51,7 +57,7 @@ input {
    padding: 0;
    padding-left: 15px;
    margin: 0;
-   background-color: white;
+   background-color: #EFEFEF;
    border: 0;
    height: 29px;
    outline: 0;

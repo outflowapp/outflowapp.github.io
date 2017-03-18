@@ -1,4 +1,4 @@
-$theme-color: #32adff;
+$theme-color: #3976FF;
 $colors: #32ADFF, #1CA2FC;
 $font: 'Lato', sans-serif;
 
@@ -8,6 +8,13 @@ html, body {
 
 h1, h2, h3, p {
    font-family: $font;
+}
+
+@mixin FadeTransition($selector, $duration) {
+   transition: $selector, $duration, ease;
+   -webkit-transition: $selector, $duration, ease;
+   -moz-transition: $selector, $duration, ease;
+   -ms-transition: $selector, $duration, ease;
 }
 
 @mixin unselectable() {

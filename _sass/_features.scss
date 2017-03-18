@@ -1,12 +1,7 @@
 #features {
-   margin: 0;
+   background-color: $theme-color;
+   margin-bottom: 75px;
    width: 100%;
-   padding: 50px 0;
-
-   background: -webkit-linear-gradient($colors); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient($colors); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient($colors); /* For Firefox 3.6 to 15 */
-   background: linear-gradient($colors); /* Standard syntax */
 }
 
 .feature-set {
@@ -22,7 +17,7 @@
    h3 {
       font-size: 15pt;
       font-weight: 700;
-      line-height: 0;
+      line-height: 15px;
       color: #F1F1F1;
       margin-bottom: 15px;
    }
@@ -30,9 +25,26 @@
       color: #FAFAFA;
       margin: 0;
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-      font-weight: 300;
+      font-weight: 400;
       font-family: 13pt;
       width: 80%;
       margin: 0 auto;
+   }
+}
+
+#features div span:last-child {
+   margin-bottom: 95px;
+}
+
+#phone-demo {
+   @include unselectable();
+   padding: 40px;
+   text-align: center;
+   position: relative;
+
+   video {
+      position: absolute;
+      margin-left: 15px;
+      margin-top: 63px;
    }
 }

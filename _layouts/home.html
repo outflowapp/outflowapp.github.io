@@ -12,52 +12,47 @@
   <body>
     {% include header.html %}
     <section id="features">
-      <!-- Used for animating background transition -->
-      <div class="grid grid-pad">
-         <div class="col-1-2">
-            <img id="Outflow-Screenshot" src="assets/img/Outflow-Home-Screen.png" alt="Outflow App Home Screenshot"/>
-         </div>
-         <div class="col-1-4">
+      <div class="grid">
+         <div class="col-3-12">
             <!-- Time Tracking -->
             <span class="feature-set">
                <img src="assets/img/Calendar-Icon.png" alt="Time Tracking Icon"/>
                <h3>Time Tracking</h3>
-               <p>Keep track of how many days until it renews.</p>
+               <p>Track the days until renewal.</p>
             </span>
-            <!-- View All -->
+            <!--  Recommendations -->
             <span class="feature-set">
-               <img src="assets/img/Stack-Icon.png" alt="View All Icon"/>
-               <h3>View All</h3>
-               <p>Quickly view all your subscriptions</p>
+               <img src="assets/img/Recommendation-Icon.png" alt="Wallet Icon"/>
+               <h3>Recommendations</h3>
+               <p>Add subscriptions based on suggestions from your Gmail account.</p>
             </span>
          </div>
-         <div class="col-1-4">
+         <div class="col-6-12">
+            <div id="phone-demo">
+               <video id="outflow-home-video" width="215" height="381" autoplay muted loop>
+                  <source src="assets/img/Outflow-3.0-demo.mp4" type="video/mp4">
+                  <source src="assets/img/Outflow-3.0-demo.ogv">
+               </video>
+               <img src="assets/img/Outflow-Home-Screen.png" alt="Mockup of Outflow's home screen">
+            </div>
+         </div>
+         <div class="col-3-12">
             <!-- Notifications -->
             <span class="feature-set">
                <img src="assets/img/Sound-Icon.png" alt="Notification Icon"/>
                <h3>Notifications</h3>
-               <p>Choose to be alerted the day of renewal or week before.</p>
+               <p>Receive an alert before the subscription renews.</p>
             </span>
-
-            <!-- Cash Flow -->
+            <!-- Currency Conversions -->
             <span class="feature-set">
-               <img src="assets/img/Wallet-Icon.png" alt="Wallet Icon"/>
-               <h3>Cash Flow</h3>
-               <p>Keep track of when a company is renewing.</p>
+               <img src="assets/img/Calculator-Icon.png" alt="View All Icon"/>
+               <h3>Currency Conversion</h3>
+               <p>Convert values to your local currency. Supports: USD, CAD, Yuan, and Euro.</p>
             </span>
          </div>
       </div>
-   </section>
-   <section id="featured-on">
-        <a href="https://www.producthunt.com/tech/outflow" target="_blank"><img src="assets/img/Product-Hunt.png" alt="Product Hunt logo"/></a>
-        <a href="http://netted.net/extra-netted/outflow-subscription-tracker-app/" target="_blank"><img src="assets/img/Netted-Logo.png" alt="Netted Logo"/></a>
-        <a href="http://www.listhunt.co/12-incredible-new-gadgets-apps-startups-you-missed-this-weekend" target="_blank"><img src="assets/img/List-Hunt.png" alt="List Hunt Logo"/></a>
-     </section>
-     <section id="video-demo">
-        <iframe src="https://player.vimeo.com/video/157938552?title=0&byline=0&portrait=0" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-     </section>
-     <section id="notes">
-        <a class="no-decoration" href="http://outflowapp.com/blog/"><p class="section-title">Notes</p></a>
+    </section>
+    <section id="notes">
         <article class="note">
            {% assign post = site.posts.first %}
            {% assign content = post.content %}
@@ -71,6 +66,7 @@
           </h1>
           <a class="note-text" href="{{ post.url }}"><p>{{ post.excerpt }}</p></a>
         </article>
+        <a class="no-decoration" href="http://outflowapp.com/blog/"><p class="section-title">See all notes</p></a>
      </section>
      {% include newsletter.html %}
      {% include footer.html %}
