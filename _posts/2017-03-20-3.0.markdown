@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Update Log: 3.0"
+date:   2017-03-20 11:00:00
+---
+This release is a more than your typical update. We have completely redesigned it and have rebuilt it entirely with you in mind.
+
+What's new:
+- A new view that allows for quicker viewing of all your subscriptions. Don't worry, we didn't get rid of the card view; you can switch between the two views and use the one that suits you best.
+- Added new option to be notified on the day of renewal.
+- Added a today extension that allows you to see what is renewing next at a glance.
+- Moved the total of each cycle to the front and center to give you a better perspective.  Also, now allows for the addition of multiple currencies and will convert it to your desired currency when calculating your totals. Supported currencies: USD, CAD, Yuan, Euro.
+- Add subscriptions easier with two new entry modes: entering a domain name or by connecting your Gmail account.
+- Added a notes section that can be attached to subscriptions.
+- Added the ability to have a custom payment method.
+- Added a bi-weekly option, by incrementing the every counter from 7 days to 14.
+- Greater importance on app stability.
+- Added more icons to the custom subscription view
+
+Demo of this new edition.
+
+<iframe src="https://player.vimeo.com/video/209017302" width="320" height="570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/209017302">Outflow 3.0</a> from <a href="https://vimeo.com/user26716000">kirkbyo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+If you like this new version of Outflow, please consider giving us a rating in the App Store; it goes a long way.
+
+If you have any question or want to stay updated give us a follow on twitter [@outflowapp](https://twitter.com/outflowapp).
