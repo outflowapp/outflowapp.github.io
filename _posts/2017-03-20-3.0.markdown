@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Update Log: 3.0"
+title:  "Update Log: 3.0 + 3.1"
 date:   2017-03-20 11:00:00
 ---
 This release is a more than your typical update. We have completely redesigned it and have rebuilt it entirely with you in mind.
@@ -16,7 +16,8 @@ What's new:
 - Added a bi-weekly option, by incrementing the every counter from 7 days to 14.
 - Greater importance on app stability.
 - Added more icons to the custom subscription view
-
+- Added more renewal options such as biweekly, bimonthly and trimonthly. Also, have made it easier to change the number of days between renewal.
+- Added more currencies: GBP, MXN, AUD and BRL. 
 Demo of this new edition.
 
 <iframe src="https://player.vimeo.com/video/209017302" width="320" height="570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
