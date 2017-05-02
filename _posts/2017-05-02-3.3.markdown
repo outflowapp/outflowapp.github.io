@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Update Log: 3.3"
+date:   2017-05-02 19:15:18
+---
+Since the last update, we have been hard at work fixing all the bugs that have been found and adding some new features.
+
+Some of the new features include:
+
+- Several new currencies: INR, SEK, JPY, SGD, DKK, MYR, RUB, CHF, TRY, NZD.
+
+- Added Triannual, Triyearly, and Custom frequencies
+
+- Added a brand new collection of colors when adding custom subscriptions.
+
+- Added more icons for custom subscriptions.
+
+- Ability to convert the price of the subscription to match the HUD.
+
+- Custom subscription names.
+
+- Several Bug fixes.
+
+If you have any questions, feel free to reach out on Twitter (@outflowapp) or to shoot us an email (hello@outflowapp.com).
