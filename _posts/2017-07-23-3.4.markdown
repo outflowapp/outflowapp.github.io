@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Update Log: 3.4"
+date:   2017-07-23 19:15:18
+---
+
+Added several convenient features that hopefully make Outflow even more enjoyable to use!
+
+- Subscriptions will now automatically be backed up to iCloud (this can be disabled in the settings).
+
+- Added several new currencies: IDR, HKD, NOK, AED and TWD.
+
+- Subscriptions can now be archived during off periods.
+
+- Fixed currency symbol issue.
+
+- Minor other bug fixes.
+
+If you have any questions, feel free to reach out on Twitter (@outflowapp) or to shoot us an email (hello@outflowapp.com).
